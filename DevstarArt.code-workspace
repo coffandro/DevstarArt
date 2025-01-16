@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../DevstarArtData"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "DevstarArt"
+	}
+}

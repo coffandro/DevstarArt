@@ -1,0 +1,16 @@
+#Title {
+    display: table;
+}
+
+#Title img {
+    width: 90vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Title span {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
