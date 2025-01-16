@@ -13,7 +13,7 @@ body {
 }
 
 #Title {
-    background-image: url("/images/mantle.jpg");
+    background-image: url("images/mantle.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
