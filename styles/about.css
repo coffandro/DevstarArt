@@ -1,0 +1,82 @@
+#TitleContainer, #Title {
+    display: flex;
+    justify-content: center;
+}
+
+#Title {
+    text-decoration: none;
+    background-color: var(--mantle-color);
+    width: 70vw;
+    border-radius: 2vw;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#Title span {
+    color: var(--text-color-1);
+    padding: 10px;
+    font-size: 6vw;
+}
+
+#Title:hover {
+    transform: scale(1.1); /* Scales the button up */
+}
+
+#Title span:hover {
+    color: var(--text-color-2);
+}
+
+#AboutContainer {
+    display: grid;
+}
+
+#AboutText {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: var(--mantle-color);
+    color: var(--text-color-2);
+    width: 60vw;
+    padding: 10px;
+    border-radius: 3.5vw;
+}
+
+#AboutText span {
+    font-size: 30px;
+    margin: 1.5vw;
+}
+
+#AboutImg {
+    width: 40vw;
+    grid-column: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#AboutSocials {
+    margin-top: 10px;
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+#AboutSocials a {
+    display: grid;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 2.5vw;
+    color: var(--text-color-1);
+    background-color: var(--mantle-color);
+    padding: 10px;
+    padding-bottom: 15px;
+    transition: transform 0.3s ease, color 0.3s ease;
+    margin: 3px;
+}
+
+#AboutSocials a:hover {
+    transform: scale(1.1); /* Scales the button up */
+    color: var(--text-color-2);
+}
