@@ -5,7 +5,7 @@ function onLoad() {
         var AboutText = document.getElementById("AboutText");
         AboutText.children[0].innerHTML = json["AboutMeText"];
         var AboutImg = document.getElementById("AboutImg");
-        AboutImg.src = json["AboutMeImage"];
+        AboutImg.src = "https://raw.githubusercontent.com/coffandro/DevstarArtData/refs/heads/master/" + json["AboutMeImage"];
     });
 }
 window.onload = onLoad;
