@@ -70,8 +70,12 @@
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
+#LinkContainer li a:not(:hover){
+    transform: scale(1); /* Scales the button up */
+}
+
 #LinkContainer li a:hover {
-    font-size: 40px;
+    /* font-size: 40px; */
     transform: scale(1.2); /* Scales the button up */
     color: var(--text-color-2);
 }
