@@ -1,0 +1,64 @@
+#TitleContainer, #Title {
+    display: flex;
+    justify-content: center;
+}
+
+#Title {
+    text-decoration: none;
+    background-color: var(--mantle-color);
+    width: 70vw;
+    border-radius: 2vw;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#Title span {
+    color: var(--text-color-1);
+    padding: 10px;
+    font-size: 6vw;
+}
+
+#Title:hover {
+    transform: scale(1.1); /* Scales the button up */
+}
+
+#Title span:hover {
+    color: var(--text-color-2);
+}
+
+.YearLabel {
+    width: 100vw;
+    height: 4vw;
+    font-size: 7vw;
+    text-align: center;
+}
+
+.YearContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#ScrollIndicator {
+    left: 0;
+    top: 50%;
+    margin-top: -150px;
+    width: 50px;
+    background-color: #ccc;
+    position: fixed;
+}
+
+#ScrollIndicator .ScrollCircle {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+#ScrollIndicator .filled {
+    background-color: #fff;
+}
