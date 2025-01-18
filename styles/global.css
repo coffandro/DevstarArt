@@ -1,9 +1,12 @@
 body {
-    --base-color: #243169;
+    --base-color-1: #63c9f9;
+    --base-color-1: #63f1f9;
     --mantle-color: #4666a3;
-    --text-color-1: #6a93be;
+    --text-color-1: #b2f6f7;
     --text-color-2: #98c5de;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: var(--base-color);
+    background: linear-gradient(rgba(99,241,249,1), rgba(99,201,249,1));
+    background-size: cover;
+    background-attachment: fixed;
     overflow-x: hidden;
 }
