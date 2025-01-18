@@ -1,11 +1,11 @@
 body {
-    --base-color-1: #63c9f9;
-    --base-color-1: #63f1f9;
+    --base-color-1: #62c9f9;
+    --base-color-2: #63f1f9;
     --mantle-color: #4666a3;
     --text-color-1: #b2f6f7;
     --text-color-2: #98c5de;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background: linear-gradient(rgba(99,241,249,1), rgba(99,201,249,1));
+    background: linear-gradient(var(--base-color-2), var(--base-color-1));
     background-size: cover;
     background-attachment: fixed;
     overflow-x: hidden;
