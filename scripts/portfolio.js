@@ -15,19 +15,26 @@ function onLoad() {
             YearContainer.className = "YearContainer";
             YearContainer.id = key;
 
-            for(let i = 0; i < 10; i++){
-                var x = Math.floor(Math.random() * 900) + 100;
-                var y = Math.floor(Math.random() * 600) + 100; 
-
+            Array.from(value).forEach(element => {
                 var NewImage = document.createElement("img");
-                NewImage.src = "https://picsum.photos/" + x + "/" + y;
+                NewImage.src = element;
 
                 YearContainer.appendChild(NewImage);
-            }            
+            });
 
-            var YearTitle = document.createElement("h1");
-            YearTitle.innerHTML = key;
-            YearTitle.className = "YearLabel";
+            // for(let i = 0; i < value.size(); i++){
+            //     var x = Math.floor(Math.random() * 900) + 100;
+            //     var y = Math.floor(Math.random() * 600) + 100; 
+
+            //     var NewImage = document.createElement("img");
+            //     NewImage.src = "https://picsum.photos/" + x + "/" + y;
+
+            //     YearContainer.appendChild(NewImage);
+            // }            
+
+            // var YearTitle = document.createElement("h1");
+            // YearTitle.innerHTML = key;
+            // YearTitle.className = "YearLabel";
 
             PageContainer.appendChild(YearTitle)
             PageContainer.appendChild(YearContainer)
