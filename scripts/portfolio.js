@@ -17,7 +17,7 @@ function onLoad() {
 
             Array.from(value).forEach(element => {
                 var NewImage = document.createElement("img");
-                NewImage.src = element;
+                NewImage.src = "https://raw.githubusercontent.com/coffandro/DevstarArtData/refs/heads/master/images/portfolio/" + element;
 
                 YearContainer.appendChild(NewImage);
             });
@@ -36,7 +36,7 @@ function onLoad() {
             // YearTitle.innerHTML = key;
             // YearTitle.className = "YearLabel";
 
-            PageContainer.appendChild(YearTitle)
+            // PageContainer.appendChild(YearTitle)
             PageContainer.appendChild(YearContainer)
 
             // var indicator = document.createElement("div");

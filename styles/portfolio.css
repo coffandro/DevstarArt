@@ -62,3 +62,7 @@
 #ScrollIndicator .filled {
     background-color: #fff;
 }
+
+img {
+    max-height: 500px;
+}
